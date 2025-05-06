@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net472;net48;net6;net8</TargetFrameworks>
+    <AssemblyName>NetworkTime</AssemblyName>
+    <RootNamespace>NetworkTime</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageId>NetworkTime</PackageId>
+    <Title>Network Time</Title>
+    <Version>1.0.0.0</Version>
+    <Authors>Koray USTUNDAG</Authors>
+    <Company>Koray USTUNDAG</Company>
+    <Product>Network Time Protocol</Product>
+    <Copyright>Copyright © Koray USTUNDAG 2025</Copyright>
+    <RepositoryUrl>https://github.com/korayustundag/ntp</RepositoryUrl>
+    <PackageTags>ntp,network,time,protocol</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIcon>ntp_icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/korayustundag/ntp</PackageProjectUrl>
+    <Description>A fully-featured and lightweight NTP (Network Time Protocol) client for .NET.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="ntp_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
