@@ -1,6 +1,8 @@
 ﻿# NTP - Network Time Protocol
 [![NuGet Version](https://img.shields.io/nuget/v/NetworkTime.svg)](https://www.nuget.org/packages/NetworkTime/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A fully-featured and lightweight NTP (Network Time Protocol) client for .NET. 
 
 Supports both synchronous and asynchronous APIs, as well as round-trip delay and local time offset correction.
